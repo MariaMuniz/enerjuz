@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 
-import Gallery from "react-photo-gallery";
+/* import Gallery from "react-photo-gallery"; */
 import { Carousel } from "react-responsive-carousel";
 import { photos } from "./photos";
 
@@ -20,10 +20,10 @@ export function GaleriaFotos() {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
-
       {viewerIsOpen ? (
         <Carousel
+          showArrows={true}
+          onClickItem={openLightbox}
           currentIndex={currentImage}
           views={photos.map((x) => ({
             ...x,
