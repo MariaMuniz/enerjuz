@@ -1,7 +1,7 @@
 
 import Card from 'react-bootstrap/Card';
 
-import CallIcon from '@mui/icons-material/Call';
+/* import CallIcon from '@mui/icons-material/Call'; */
 
 interface Props {
   imagem: string;
