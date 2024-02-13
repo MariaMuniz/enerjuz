@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 
 import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
+import { Carousel } from "react-responsive-carousel";
 import { photos } from "./photos";
 
 export function GaleriaFotos() {
@@ -13,28 +13,25 @@ export function GaleriaFotos() {
     setViewerIsOpen(true);
   }, []);
 
-  const closeLightbox = () => {
+  /* const closeLightbox = () => {
     setCurrentImage(0);
     setViewerIsOpen(false);
-  };
+  }; */
 
   return (
     <div>
       <Gallery photos={photos} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+
+      {viewerIsOpen ? (
+        <Carousel
+          currentIndex={currentImage}
+          views={photos.map((x) => ({
+            ...x,
+            srcset: x.srcSet,
+            caption: x.title,
+          }))}
+        />
+      ) : null}
     </div>
   );
 }
