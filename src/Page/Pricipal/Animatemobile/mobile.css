@@ -1,0 +1,22 @@
+.mobile {
+  whidth: 600px;
+  magin-top: 2px;
+  background: #000;
+  padding: 8px;
+  @media (max-width: 768px) {
+  }
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

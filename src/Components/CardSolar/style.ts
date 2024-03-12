@@ -1,23 +1,23 @@
 import styled from 'styled-components';
 
 
-export const Container = styled.div`
-    width: 16rem;
+export const Container = styled.div<{ corDeFundo: string }>`
+    width: 14rem;
     height:280px;
     flex-direction:column;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#fff;
     z-index:0;
     margin-bottom:1rem;
-    margin-left:2rem;
+    margin-left:3rem;
     border-radius:8px;
-  
+ 
+    background: ${(props) => props.corDeFundo};
 `;
 
 export const Titulo = styled.div`
-font-size:21px;
+font-size:18px;
 font-weight:700;
 color:#002060;
   display:flex;
@@ -31,7 +31,8 @@ font-size:14px;
   display:flex;
     justify-content:center;
     align-items:center;
-    margin:1rem;
+    text-align: justify;
+    margin:1.4rem;
 `;
 export const Numero= styled.div`
 width:18px;

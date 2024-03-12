@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 margin-top:-1rem;
-width: 300px;
-margin-left:60px;
+width: 18.7rem;
+margin-left:3.7rem;
 display: flex;
 justify-content:center;
 align-items:center;
@@ -18,7 +18,7 @@ export const Titulo = styled.h3`
   margin-top:1.6rem;
   color:#000;
  
-  width: 260px;
+  width: 16.3rem;
 
 `;
 
@@ -29,7 +29,7 @@ export const TituloContainer = styled.div`
   margin-top:1rem;
   color:#000;
   font-size:1rem;
-  width: 250px;
+  width: 15.6rem;
 
 `;
 
@@ -41,9 +41,9 @@ align-items:center;
 flex-direction:column;
   z-index: 1;
   background: #fff;
-  max-width: 300px;
+  max-width: 18.7rem;
   margin: 0 auto 5px;
-  padding: 30px;
+  padding: 1.8rem;
   text-align: center;
 
 `;
@@ -59,7 +59,7 @@ font-family: "Roboto", sans-serif;
   margin: 0 2px 0px 2px;
   padding: 5px;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight:400;
  
 `;
@@ -101,7 +101,7 @@ export const Button = styled.button`
 
 export const Menssage = styled.textarea`
   margin-top:1rem;
-  width: 210px;
+  width: 13.2rem;
    height:20vh;
     padding: 10px;
     line-height: 1.5;
@@ -113,7 +113,7 @@ export const Menssage = styled.textarea`
 `;
 
 export const ContainerBtn = styled.div`
-   width: 300px;
+   width: 18.7rem;
 margin-left:0;
 display: flex;
     justify-content:center;

@@ -1,4 +1,13 @@
-.box {
+.boxPage {
+  whidth: 1200px;
+  magin-top: 2px;
+  background: #000;
+  padding: 8px;
+  @media (max-width: 768px) {
+  }
+}
+
+.boxA {
   whidth: 400px;
   height: 100px;
   background: #ccc;

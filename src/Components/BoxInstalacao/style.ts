@@ -9,7 +9,10 @@ export const Container = styled.div`
     align-items:center;
     flex-direction:column;
     margin: 0;
-  
+    @media (max-width: 768px) {
+       
+      height:100%;
+   }
     `;
 
 export const Texto = styled.div`
@@ -56,7 +59,12 @@ width:76rem;
     justify-content:space-between;
     align-items:center;
     flex-direction:row;
-  
+    @media (max-width: 768px) {
+       
+       flex-direction:column;
+       justify-content:center;
+    align-items:center;
+   }
   `;
 
 export const BoxIcone = styled.div`
@@ -66,6 +74,7 @@ export const BoxIcone = styled.div`
     align-items:center;
     flex-direction:column;
   `;
+
   export const Titulo = styled.p`
   font-size:14px;
     

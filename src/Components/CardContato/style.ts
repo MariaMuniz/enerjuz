@@ -3,21 +3,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
  height:90vh;
-    width:100vw;
-    background-color:#fff;
-    flex-direction:column;
+    width:50%;
     display:flex;
-    justify-content:center;
+    flex-direction:row;
+    justify-content:start;
     align-items:center;
     z-index:0;
     border-radius:0.5rem;
-    
-
+   // padding:1rem;
+    @media (max-width: 768px) {
+  width:100%;
+  justify-content:center;
+  margin-top:0;
+    }
 `;
 
-export const Icone = styled.div`
-width:100%; 
-display:flex;
-justify-content:space-between;
-align-items:center;
-`;

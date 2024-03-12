@@ -1,25 +1,24 @@
 .swiper {
-  padding: 30px;
-  bacground: red;
+  height: auto;
 }
-.swiper-slider {
-  display: flex;
-  justifiy-content: center;
-  align-items: center;
-  padding-left: 10px;
+.swiper .swiper-slide {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
+
 .swiper-pagination-bullet-active {
   bacground: #ccc;
 }
 
 .swiper-button-prev {
-  color: #fff;
+  color: #000;
 }
 
 .swiper-button-next {
-  color: #fff;
+  color: #000;
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (max-width: 769px) {
   .swiper-slider {
     display: block;
     justifiy-content: center;

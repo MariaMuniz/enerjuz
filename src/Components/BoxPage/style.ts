@@ -54,8 +54,8 @@ height: 8rem;
            `;  
 export const Imagem = styled.img`
 margin-top:10px;
-width: 49rem;
-height: 28rem;
+width: 88%;
+height: 28%;
  border-radius:0.5rem;
     `;
 
@@ -65,6 +65,11 @@ width:50rem;
     justify-content:space-between;
     align-items:center;
     flex-direction:row;
+    flex-wrap:wrap;
+    @media (max-width: 768px) {
+        flex-direction:column;
+        width:80rem;
+    }
   `;
 
 export const BoxIcone = styled.div`

@@ -20,7 +20,7 @@ export const BoxContainer = styled.div`
     justify-content:center;
     align-items:center;
     z-index:0;
-
+flex-wrap:wrap;
 `;
 
 export const ContainerPage = styled.div`

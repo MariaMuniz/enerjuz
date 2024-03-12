@@ -3,9 +3,12 @@ import Card from 'react-bootstrap/Card';
 import MailIcon from '@mui/icons-material/Mail';
 import CallIcon from '@mui/icons-material/Call';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import {Container} from "./style";
+
 function CardContato() {
   return (
-    <Card style={{ width: '14rem', height:'29rem'}}>
+    <Container>
+    <Card style={{ width: '20rem', height:'26rem',marginRight:'4rem'}}>
       <Card.Img variant="top" />
       <Card.Body>
       <Card.Title style={{marginBottom: '2rem', marginTop:'2rem'}}>Entre em contato </Card.Title>
@@ -22,6 +25,7 @@ function CardContato() {
     
       </Card.Body>
     </Card>
+    </Container>
   );
 }
 

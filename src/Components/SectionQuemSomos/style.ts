@@ -10,9 +10,11 @@ background-image:url("fundo3.png");
    background-repeat: no-repeat;
    display:flex;
    flex-wrap:wrap;
-   width:98vw;
+   width:90vw;
    @media (max-width: 768px) {
     flex-direction: column;
+    background-image:none;
+    margin-bottom:1rem;
   }
 `;
 export const ColumTexto= styled.div`
@@ -21,6 +23,7 @@ export const ColumTexto= styled.div`
     display:flex;
     justify-content:flex-start;
     align-items:center;
+ 
 
 `;
 export const ColumnPage= styled.div`
@@ -29,6 +32,9 @@ export const ColumnPage= styled.div`
     justify-content:center;
     align-items:center;
 margin-bottom:4rem;
+@media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const TextoSomos= styled.div`
@@ -38,12 +44,15 @@ export const TextoSomos= styled.div`
     display:flex;
     justify-content:flex-start;
     align-items:start;
-
+    flex-wrap:wrap;
+    @media (max-width: 768px) {
+ max-width:70%;
+  }
 `;
 
 export const Imagem= styled.div`
 margin-top:2rem;
- width:500px;
+ width:99%;
 
 `;
 
@@ -56,4 +65,7 @@ font-size:16px;
 margin-top:1rem;
 margin-bottom:1rem;
 margin-left:4rem;
+@media (max-width: 768px) {
+ max-width:80%;
+  }
 `;

@@ -21,6 +21,7 @@ import { GaleriaFotos} from '../../../Components/GaleriaFotos';
 
 
 
+
 export const Instalacoes: React.FC = () => {
   return (
     <Container>
@@ -34,7 +35,7 @@ export const Instalacoes: React.FC = () => {
       <a href="/instaUsina"><CardImg  titulo="Usina" imagem={usina1} /></a>
       </ContainerImg>
            
-        
+    
 
           
            

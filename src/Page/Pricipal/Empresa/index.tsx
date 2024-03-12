@@ -23,20 +23,20 @@ export const Empresa: React.FC = () => {
     <Container>
            <BoxTitulo titulo="Somos a ENERJUZ" traco='________'/>
            <ContainerPage>
+
            <CardContact>
            <CardImgG  imagem={equipe} />
-
-  
-   
-          
            <CardContato/>
+
     </CardContact>
-     <Paragrafo>Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a 
-      solução pra economizar, praticar a sustentabilidade e gerar energia limpa.
-      Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a 
-      solução pra economizar, praticar a sustentabilidade e gerar energia limpa
-      Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a 
-      solução pra economizar, praticar a sustentabilidade e gerar energia limpa</Paragrafo>
+     <Paragrafo>Desde 2021 a Enerjuz oferece soluções provenientes da energia solar fotovoltaica,
+transformando seus gastos em economia e promovendo sustentabilidade para o meio ambiente.
+Com sede em Carmo do Cajuru, MG, temos uma equipe capacitada para dimensionar, projetar,
+homologar, instalar e comissionar sua usina solar fotovoltaica.
+Os sistemas projetados pela Enerjuz seguem os padrões exigidos pelas normas técnicas do setor,
+visando não só a economia do seu investimento, mas também sua segurança e durabilidade do
+empreendimento.
+      </Paragrafo>
    
    
    
@@ -44,14 +44,20 @@ export const Empresa: React.FC = () => {
     </ContainerPage>
    
     <Card>
-    <CardVisao titulo='Visao' descricao='Levar economia ao dia a dia, oferecendo soluções em geração de energia fotovoltaica praticando a sustentabilidade e  gerarando energia limpa.'imagem={visao} />
+    <CardVisao titulo='Visão' descricao='Buscamos ser líderes na entrega de soluções energéticas inovadoras
+,eficientes,lucrativas e de muita qualidade.
+Nosso compromisso vai desde proporcionar economia financeira aos nossos clientes
+quanto a estabelecer padrões elevados de excelência no atendimento, cultivando
+relacionamentos duradouros e impulsionando o desenvolvimento sustentável
+nos locais em que atuamos.'imagem={visao} />
    
-    <CardVisao titulo='Missão' descricao='Ser referência no setor de energia solar com garantia energética, com qualidade, confiabilidade, respeito, praticidade e sustentabilidade.'imagem={missao} />
-    <CardVisao titulo='Valores' descricao='Satisfação e economia para o consumidor; Ética, respeito e valorização dos nossos colaboradores; Responsabilidade social; Sustentabilidade.'imagem={painelSolar} />
+    <CardVisao titulo='Missão' descricao='Fornecer soluções com energia solar fotovoltaica que além de contribuir com a
+sustentabilidade do planeta também garantam economias consistentes e duradouras, transformando cada investimento em um sólido retorno financeiro'imagem={missao} />
+    <CardVisao titulo='Valores' descricao='Ética, transparência, qualidade de serviço, sustentabilidade e inovação'imagem={painelSolar} />
     
     </Card>
     <ButtonCustomer/>
-    <Footer></Footer>
+    <Footer/>
     </Container>
   );
 }

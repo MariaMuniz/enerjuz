@@ -12,6 +12,9 @@ export const Container = styled.div`
     z-index:0;
     border-radius:0.5rem;
     padding:1.4rem;
+    @media (max-width: 768px) {
+        flex-direction:column;
+    }
 `;
 
 export const Coluna= styled.div`
@@ -33,3 +36,4 @@ export const Card = styled.div`
     align-items:center;
     flex-direction:column;
 `;
+

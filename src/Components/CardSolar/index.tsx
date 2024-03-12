@@ -6,7 +6,7 @@ interface Props {
   titulo: string;
  numero:string;
  descricao:string;
-
+ corDeFundo?: 'white' | 'Lavender' ;
 }
 
 
@@ -14,7 +14,7 @@ interface Props {
 export const CardSolar:React.FC<Props> = (props) => {
 
   return (
-  <Container> 
+  <Container corDeFundo={props.corDeFundo ?? 'white'}>
     <BoxNumero>
       <Numero>{props.numero}</Numero>
       </BoxNumero>

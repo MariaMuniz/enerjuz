@@ -2,6 +2,7 @@
 //import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import {Card, Button} from 'react-bootstrap';  
+import './cardstyle.css';
 
 interface Props {
   imagem: string;
@@ -15,7 +16,8 @@ interface Props {
 export const CardServico: React.FC<Props> = (props) =>{
 
   return (
-    
+    <div className="card">
+    <div className="col-sm">
       <Card style={{ width:'18rem'}}>
         <Card.Img  variant="top" src={props.imagem} />
         <Card.Body>
@@ -30,6 +32,8 @@ export const CardServico: React.FC<Props> = (props) =>{
           </Link>
         </Card.Body>
       </Card>
+      </div>
+      </div>
     );
   }
 

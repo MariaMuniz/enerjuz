@@ -3,14 +3,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
  margin-top:6rem;
-    width:100vw;
+    width:99vw;
     background-color:#fff;
     flex-direction:column;
     display:flex;
     justify-content:center;
     align-items:center;
-    //background:red;
-    z-index:0;
+
 `;
 export const ContainerPage = styled.div`
 
@@ -20,8 +19,9 @@ export const ContainerPage = styled.div`
     display:flex;
     justify-content:start;
     align-items:flex-start;
-  padding:0.4rem;
-  //background:blue;
+  margin-top:0;
+  margin-bottom:0;
+
 `;
 
 export const ContainerImg = styled.div`
@@ -35,37 +35,52 @@ width:80rem;
 `;
 
 export const Paragrafo = styled.div`
-    margin-top:2rem;
-  
-    width:70vw;
+    margin-top:1rem;
+    margin-bottom:4rem;
+    margin-right:18rem;
+    width:84vw;
     background-color:#fff;
   margin-left:1rem;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align: justify;
+
+    @media (max-width: 768px) {
+      width:88vw;
+      margin-top:4rem;
+      margin-bottom:2rem;
+      margin-left:1rem;
+      margin-right:1rem;
+  }
  
 `;
 export const Card= styled.div`
-width:70rem;
-margin-top:2rem;
-    margin-left:1rem;
-    margin-right:6rem;
-    background-color:#fff;
+    width:90%;
+    margin-top:0.2rem;
     flex-direction:row;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
-    gap:4rem;
-   
+    gap:3rem;
+
+    @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardContact= styled.div`
 width:90vw;
+
   display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
     flex-direction:row;
+
+    @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    margin-top:0;
+    }
   
 
 `;

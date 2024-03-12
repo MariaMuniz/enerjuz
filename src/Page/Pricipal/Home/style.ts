@@ -10,6 +10,7 @@ export const Container = styled.div`
     justify-content:center;
     align-items:center;
     z-index:0;
+    
 
 `;
 
@@ -18,24 +19,74 @@ export const Section = styled.section`
     /// background-color:#000;
     max-width:1360px;
     height:600px;
+    @media (max-width: 768px) {
+        max-width:600px;
+  
+ 
+  }
 `;
 
 export const SectionSolar = styled.section`
   
-    max-width:99vw;
+    max-width:90vw;
     height:600px;
     margin-left:1rem;
+    @media (max-width: 768px) {
+        height:100%;
+    }
 `;
+export const SectionServico = styled.section`
+  
+    max-width:99vw;
+    margin-top:1rem;
+    margin-left:1rem;
+       @media (max-width: 768px) {
+        height:100%;
+    }
+`;
+
+
+export const SectionSolarFuncionamento = styled.section`
+  width:99vw;
+    height:600px;
+    //margin-left:1rem;
+ 
+    margin-top:-50px;
+    background-color:lightgray;
+    @media (max-width: 768px) {
+        background-image:none;
+    }
+
+`;
+
+export const SectionSolarFuncionamento2 = styled.section`
+  width:99vw;
+    height:600px;
+    //margin-left:1rem;
+ 
+    margin-top:-50px;
+    background-color:white;
+    @media (max-width: 768px) {
+        background-image:none;
+    }
+
+`;
+
 export const SectionSolarCinza = styled.section`
+  width:99vw;
    //background:#ccc;
    background-image:url("fundo2.png");
    background-repeat: no-repeat;
-    max-width:100vw;
+  
     height:660px;
     //margin-left:1rem;
     z-index:10;
-    margin-top:-150px;
+    margin-top:-180px;
     background-color:transparent;
+    @media (max-width: 768px) {
+        background-image:none;
+    }
+
 `;
 export const SectionSolarCinzaI = styled.section`
    //background:#ccc;
@@ -46,6 +97,9 @@ export const SectionSolarCinzaI = styled.section`
     z-index:10;
     margin-top:100px;
     background-color:transparent;
+    @media (max-width: 768px) {
+        height:1100px;
+    }
 `;
 
 export const ContainerQ = styled.div`
@@ -74,7 +128,7 @@ export const ContainerImg = styled.div`
 `;
 export const Box = styled.div`
 
-    width:100vw;
+    width:98vw;
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -84,6 +138,34 @@ export const Box = styled.div`
   }
 
     `;
+
+export const BoxServico = styled.div`
+
+    width:90vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    @media (max-width: 768px) {
+       
+        display:block; 
+        justify-content:center;
+        align-items:center;
+       
+  }
+
+    `;
+
+
+export const BoxImage = styled.div`
+
+    width:99vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+    `;
+       
         export const TituloSection = styled.h3`
         display:flex;
        justify-content:center;
@@ -97,9 +179,18 @@ export const Box = styled.div`
         justify-content:center;
         align-items:center;
         color: #002060;
-        margin-top:13rem;
+        margin-top:10rem;
         font-family: 'Poppins', sans-serif;
          `;
+
+export const TituloSectionFunc = styled.h4`
+display:flex;
+justify-content:center;
+align-items:center;
+color: #002060;
+margin-top:6rem;
+font-family: 'Poppins', sans-serif;
+`;
          export const SubTitulo = styled.h5`
          display:flex;
         justify-content:center;
@@ -115,4 +206,14 @@ export const Box = styled.div`
           justify-content:center;
           align-items:center;
           color: #002060;
+           `;
+
+
+    export const Mobile = styled.div`
+           display:flex;
+          justify-content:center;
+          align-items:center;
+          @media (max-width: 768px) {
+            display:nome;
+          }
            `;

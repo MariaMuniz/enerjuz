@@ -1,6 +1,6 @@
 
 import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage,} from "./style";
+import{BoxContainer, Container, ContainerPage} from "./style";
 import imgAgro from '../../../Components/Img/imgAgro.png';
 import agro3icone from '../../../Components/Img/agro3icone.png';
 import agro2icone from '../../../Components/Img/agro2icone.png';
@@ -24,16 +24,18 @@ export const Agro: React.FC = () => {
   texto="Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos
    nossos cliente a solução pra economizar, praticar a sustentabilidade e gerar energia limpa. 
    Estamos atuando há varios anos no mercado de energia solar. Oferecendo aos nossos cliente a "
- 
+
   icone1={agroicone}
   icone2={agro2icone}
   icone3={agro3icone}
   icone4={agro4icone}
   titulo="Instalação Enerjuz ©"
+
   />
+ 
     </ContainerPage>
     
-  <CardOrcamento></CardOrcamento>
+  <CardOrcamento/>
  </BoxContainer>
  <Footer></Footer>
     </Container>

@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 import logo from "../Img/logoTransparent.png";
-import "./header.css"; // Import your CSS file for styling
+import "./header.css";
 
 const Menu = () => (
   <>
@@ -66,7 +66,7 @@ const Header1 = () => {
       //console.log("chegou aqui " + window.location.href+' eh home: '+ window.location.href.endsWith("/"));
       const isHomePage = location.pathname.endsWith("/");
       //const isHomePage = true;
-      const isScrollDown = window.scrollY > 20;
+      const isScrollDown = window.scrollY > 200;
 
       if (isHomePage && isScrollDown) {
         // Change this value according to when you want the header to become sticky

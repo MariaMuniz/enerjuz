@@ -92,15 +92,15 @@ ATENDIMENTO
 
 <LinkFooter>
 <Box>
-  <FmdGoodIcon color="warning"/>Carmo Cajuru
-  </Box>
-</LinkFooter>
-</Column>
+    <FmdGoodIcon color="warning"/>Carmo Cajuru
+    </Box>
+   </LinkFooter>
+  </Column>
 </ContainerPage>
 
-<ColumnRodape>
-<Rodape> Enerjuz - © 2024 - Todos os Direitos reservados - Desenvolvimento....</Rodape>
-</ColumnRodape>
-    </Container>
+  <ColumnRodape>
+     <Rodape> Enerjuz - © 2024 - Todos os Direitos reservados - Desenvolvimento....</Rodape>
+  </ColumnRodape>
+</Container>
   );
 }
