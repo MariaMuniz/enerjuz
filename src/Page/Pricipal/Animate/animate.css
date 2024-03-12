@@ -6,7 +6,15 @@
   @media (max-width: 768px) {
   }
 }
-
+#boxcarrocel {
+  fontfamily: Poppins;
+  animation: fadeIn 5s;
+  display: flex;
+  justifycontent: center;
+  alignitems: center;
+  flexwrap: wrap;
+  color: red;
+}
 .boxA {
   whidth: 400px;
   height: 100px;

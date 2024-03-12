@@ -54,7 +54,7 @@ const settings: SwiperProps= {
   breakpoints: {
     961: { slidesPerView: 4 },
     739:{ slidesPerView: 3 },
-    400: { slidesPerView: 2},
+    500: { slidesPerView: 2},
 },
   pagination: {clickable: true }
 }

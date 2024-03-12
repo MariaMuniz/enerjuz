@@ -23,7 +23,28 @@ export const BoxContainer = styled.div`
     z-index:0;
 
 `;
+export const BoxTexto = styled.div`
+ 
+    width: 90vw;
+    flex-direction:row;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+ 
 
+`;
+
+export const Texto = styled.div`
+ 
+    width: 60vw;
+    flex-direction:row;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+   font-size:18px;
+  
+
+`;
 export const ContainerPage = styled.div`
  
     width:56vw;

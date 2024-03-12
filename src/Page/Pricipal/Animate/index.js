@@ -4,41 +4,33 @@ import "./animate.css";
 import Carousel from "react-bootstrap/Carousel";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 function Animate() {
   return (
     <div className="boxPage">
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src="img002.png" alt="Imagem Two" />
-          <Carousel.Caption>
-            <h1
-              style={{
-                fontFamily: "Poppins",
-                animation: "fadeIn 5s",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexWrap: "wrap",
-              }}
-            >
-              Somos a Enerjuz
-            </h1>
+          <div className="boxcarrocel">
+            <Carousel.Caption>
+              <h1>Somos a Enerjuz</h1>
 
-            <p
-              style={{
-                color: "#ffffb2",
-                fontSize: "1.2rem",
-                marginBottom: "10rem",
-                fontFamily: "Poppins",
-                animation: "fadeIn 5s",
-              }}
-            >
-              Seja sustentável, produza sua própria energia e garanta um futuro
-              limpo para todos
+              <p
+                style={{
+                  color: "#ffffb2",
+                  fontSize: "1.2rem",
+                  marginBottom: "10rem",
+                  fontFamily: "Poppins",
+                  animation: "fadeIn 5s",
+                }}
+              >
+                Seja sustentável, produza sua própria energia e garanta um
+                futuro limpo para todos
+                <br></br>
+              </p>
               <br></br>
-            </p>
-            <br></br>
-          </Carousel.Caption>
+            </Carousel.Caption>
+          </div>
         </Carousel.Item>
 
         <Carousel.Item>

@@ -36,7 +36,7 @@ const Menu = () => (
           <Link to="/instalacoes">Instalações</Link>
         </li>
         <li>
-          <Link to="/usina">Usina</Link>
+          <Link to="/usina">Alugue</Link>
         </li>
         <li>
           <Link to="/contato">Contato</Link>

@@ -1,9 +1,7 @@
-import { BoxPage } from "../../../Components/BoxPage";
-import{BoxContainer, Container, ContainerPage,} from "./style";
-import usina1 from '../../../Components/Img/imgUsina1.jpg';
-import comercial3icone from '../../../Components/Img/comercial3icone.png';
-import comercial2icone from '../../../Components/Img/comercial2ricone.png';
-import comercial1icone from '../../../Components/Img/comercial1icone.png';
+import { BoxPageUsina } from "../../../Components/BoxPageUsina";
+import{BoxContainer, Container, ContainerPage,Texto, BoxTexto} from "./style";
+import usina1 from '../../../Components/Img/imgusina1.png';
+
 import { CardOrcamento } from "../../../Components/CardOrcamento";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
@@ -17,18 +15,21 @@ export const Usina: React.FC = () => {
   return(
   
       <Container>
-            <BoxTitulo titulo="Usina" traco="_________"/>
+            <BoxTitulo titulo="COMO FUNCIONA O ALUGUEL DE USINA" traco="______________________________________"/>
+<BoxTexto>
+       <Texto>
+       Uma usina solar fotovoltaica gera créditos de
+      energia que podem ser transferidos para outros locais.Você passa a receber esses créditos
+      de energia de acordo com o seu consumo
+       </Texto></BoxTexto>
         <BoxContainer>
       <ContainerPage>
-    <BoxPage  imagem={usina1}
-    texto="As usinas fotovoltaicas são uma fonte de energia limpa e renovável, contribuindo para reduzir a dependência de combustíveis fósseis e diminuir as 
-    emissões de gases de efeito estufa, ajudando assim na luta contra as mudanças climáticas. "
+    <BoxPageUsina  imagem={usina1}
+    texto="Economize todo mês sem investir absolutamente NADA!
+    Alugue uma fração de uma usina solar fotovoltaica e tenha um desconto de 20% aproximadamente, na
+    sua fatura de energia elétrica na CEMIG"
    
-    icone1={comercial1icone}
-    icone2={comercial3icone}
-    icone3={comercial2icone}
-    icone4={comercial3icone}
-    titulo="Instalação Enerjuz ©"
+ 
     />
       </ContainerPage>
       
