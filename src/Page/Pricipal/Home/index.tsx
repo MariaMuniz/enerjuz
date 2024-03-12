@@ -42,7 +42,7 @@ import instalacao from '../../../Components/Img/instalacao.png';
 import Animate from '../Animate';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CardFucionamento } from '../../../Components/CardFuncionamento';
-import Animatemobile from '../Animatemobile';
+
 
 
 
