@@ -37,9 +37,9 @@ export const Usina: React.FC = () => {
 <CardUsina imagem={painel} descricao="Energia sustentável"/>
    </Box>
       </ContainerPage>
-      
     <CardOrcamentoUsina/>
    </BoxContainer>
+
    <SectionA>
     <Titulo>Dúvidas frequentes</Titulo>
  <BoxAccordion>

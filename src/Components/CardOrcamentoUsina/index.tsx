@@ -1,4 +1,4 @@
-import { Container, TituloContainer, Formulario, Label, Button, Input, ContainerBtn} from "./style";
+import { Container, TituloContainer, Formulario, Button, Input, ContainerBtn} from "./style";
 
 
 
