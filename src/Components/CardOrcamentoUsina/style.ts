@@ -31,10 +31,10 @@ export const TituloContainer = styled.div`
   justify-content: center;
   align-items:center;
   margin-top:1rem;
-  color:#000;
-  font-size:1rem;
+  color:#002060;
+  font-size:1.2rem;
   width: 15.6rem;
-
+font-weight:600;
 `;
 
 
@@ -45,7 +45,7 @@ align-items:center;
 flex-direction:column;
   z-index: 1;
   background: #fff;
-  max-width: 18.7rem;
+  max-width: 18rem;
   margin: 0 auto 5px;
   padding: 1.8rem;
   text-align: center;
@@ -61,7 +61,7 @@ font-family: "Roboto", sans-serif;
   width: 90%;
   border:0;
   margin: 0 2px 0px 2px;
-  padding: 5px;
+  padding: 4px;
   box-sizing: border-box;
   font-size: 0.8rem;
   font-weight:400;
@@ -73,9 +73,9 @@ font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 90%;
-  height: 1.6rem;
+  height: 1rem;
   border:0;
-  margin: 0 0px 0 0px;
+  margin: 8px 0px 2px 0px;
   padding: 1rem;
   box-sizing: border-box;
   font-size: 12px;
@@ -93,7 +93,7 @@ export const Button = styled.button`
   transition: all 0.3 ease;
   cursor: pointer;
   background-color:#002060;
-  padding: 15px 10px;
+  padding: 10px 20px;
   margin: 10px 0;
   border-radius: 20px;
 

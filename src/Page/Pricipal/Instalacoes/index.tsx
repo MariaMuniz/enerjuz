@@ -32,7 +32,7 @@ export const Instalacoes: React.FC = () => {
        <a href="/instaAgro"><CardImg  titulo="Agro" imagem={imgAgro} /></a>
       <a href="/instaComercial"><CardImg  titulo="Comercial" imagem={imgComercial} /></a>
       <a href="/instaResidencial"><CardImg  titulo="Residencial" imagem={imgResidencial} /></a>
-      <a href="/instaUsina"><CardImg  titulo="Usina" imagem={usina1} /></a>
+      <a href="/instaUsina"><CardImg  titulo="Usina de investimento" imagem={usina1} /></a>
       </ContainerImg>
            
     

@@ -12,6 +12,12 @@ export const Container = styled.div`
     z-index:0;
     border-radius:0.5rem;
     margin-left:20px;
+
+    @media (max-width: 768px) {
+     height:none;
+     border-radius:none;
+
+}
 `;
 
 export const Icone = styled.div`

@@ -1,25 +1,27 @@
 import React from "react";
 
-import "./animate.css";
 import Carousel from "react-bootstrap/Carousel";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Animate() {
+function MobileAnimate() {
   return (
-    <div className="boxPage">
+    <div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src="img002.png" alt="Imagem Two" />
-          <div className="boxcarrocel">
+          <img
+            className="d-block w-100"
+            src="residencial2.png"
+            alt="Imagem Two"
+          />
+          <div>
             <Carousel.Caption>
-              <h1>Somos a Enerjuz</h1>
+              <h1 style={{ fontSize: "16px" }}>Somos a Enerjuz</h1>
 
               <p
                 style={{
                   color: "#ffffb2",
-                  fontSize: "1.2rem",
-                  marginBottom: "10rem",
+                  fontSize: "0.8rem",
                   fontFamily: "Poppins",
                   animation: "fadeIn 5s",
                 }}
@@ -34,16 +36,22 @@ function Animate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="img004.png" alt="Imagem Tree" />
+          <img className="d-block w-100" src="imgAgro2.png" alt="Imagem Tree" />
           <Carousel.Caption>
-            <h1 style={{ fontFamily: "Poppins", animation: "fadeIn 5s" }}>
+            <h1
+              style={{
+                fontSize: "16px",
+                fontFamily: "Poppins",
+                animation: "fadeIn 5s",
+              }}
+            >
               Enquanto o sol brilha você economiza!
             </h1>
             <p
               style={{
                 color: "#ffffb2",
-                fontSize: "1.2rem",
-                marginBottom: "10rem",
+                fontSize: "0.8rem",
+
                 fontFamily: "Poppins",
                 animation: "fadeIn 5s",
               }}
@@ -57,16 +65,22 @@ function Animate() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src="img001.png" alt="Imagem One" />
+          <img className="d-block w-100" src="Usina1.jpg" alt="Imagem One" />
           <Carousel.Caption>
-            <h1 style={{ fontFamily: "Poppins", animation: "fadeIn 5s" }}>
+            <h1
+              style={{
+                fontSize: "16px",
+                fontFamily: "Poppins",
+                animation: "fadeIn 5s",
+              }}
+            >
               Economize sem investir.
             </h1>
             <p
               style={{
                 color: "#ffffb2",
-                fontSize: "1.2rem",
-                marginBottom: "10rem",
+                fontSize: "0.8rem",
+
                 fontFamily: "Poppins",
                 animation: "fadeIn 5s",
               }}
@@ -77,7 +91,7 @@ function Animate() {
                 style={{
                   color: "#fff",
                   padding: "1rem",
-                  fontSize: "1.6rem",
+                  fontSize: "1.2rem",
                 }}
               >
                 Saiba Mais
@@ -90,4 +104,4 @@ function Animate() {
   );
 }
 
-export default Animate;
+export default MobileAnimate;

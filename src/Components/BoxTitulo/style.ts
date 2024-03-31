@@ -9,10 +9,10 @@ export const Container = styled.div`
     align-items:center;
    margin-bottom:1rem;
    flex-direction:row;
-   background-image:url("topo2.png");
+   background-image:url("imgfundo.png");
    @media (max-width: 768px) {
-margin-top:4.2rem;
-  
+margin-top:2.2rem;
+
   }
     `;
 
@@ -24,13 +24,21 @@ export const Box = styled.div`
 `;
 export const Titulo = styled.div`
   font-weight: 700;
-    font-size: 24pt;
+    font-size: 1.6rem;
     color:#002060;
+    @media (max-width: 768px) {
+font-size:1.2rem;
+  
+  }
   `;
 
 export const Traco = styled.div`
 margin-top:-2rem;
  font-weight: 700;
-    font-size: 24pt;
+    font-size: 1.6rem;
     color:#002060;
+    @media (max-width: 500px) {
+    display: none;
+  
+  }
  `;

@@ -14,12 +14,12 @@ export const Container = styled.div`
 
 export const Imagem = styled.img`
 margin-top:10px;
-width: 90%;
-height: 26%;
+width: 60vw;
+height: 70vh;
  border-radius:0.5rem;
 
  @media (max-width: 768px) {
-  width:90%;
+
   margin-top:0;
  }
 `;

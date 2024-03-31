@@ -9,7 +9,7 @@ import {CardInstalacao} from "../../../Components/CardInstalacao";
 import { ButtonCustomer } from '../../../Components/ButtonCustomer';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import { Container, Section, Box, TituloSection,TituloSectionF,SubTitulo,SectionServico,  SectionSolar, SectionSolarCinza, SectionSolarCinzaI, Traco, BoxImage, SectionSolarFuncionamento, TituloSectionFunc, SectionSolarFuncionamento2, BoxServico, Mobile} from './style';
+import { Container, Section, Box, TituloSection,TituloSectionF,SubTitulo,SectionServico,  SectionSolar, SectionSolarCinza, SectionSolarCinzaI, Traco, BoxImage, SectionSolarFuncionamento, TituloSectionFunc, SectionSolarFuncionamento2, BoxServico, Mobile, MSlider, SectionMobile} from './style';
 import { TextTituloSection } from '../../../Components/TextTituloSection';
 import { SectionQuemSomos } from '../../../Components/SectionQuemSomos';
 import { CardServico } from '../../../Components/CardServico';
@@ -39,9 +39,10 @@ import psolar from '../../../Components/Img/psolar.png';
 import instalacao from '../../../Components/Img/instalacao.png';
 //import Aos from 'aos';
 ///import 'aos/dist/aos.css';
-import Animate from '../Animate';
+import Animate from '../../../Components/Animate';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CardFucionamento } from '../../../Components/CardFuncionamento';
+import MobileAnimate from '../../../Components/MobileAnimate';
 
 
 
@@ -66,9 +67,15 @@ export const Home: React.FC = () => {
           <Mobile>
     <Animate/>
     </Mobile>
-   
       <ButtonCustomer/>
       </Section>
+
+      <SectionMobile> 
+          <MSlider>
+    <MobileAnimate/>
+    </MSlider>
+      <ButtonCustomer/>
+      </SectionMobile>
 
       <SectionSolarFuncionamento> 
       <TituloSectionFunc>BENEFÍCIOS DO SISTEMA FOTOVOLTAICO</TituloSectionFunc>

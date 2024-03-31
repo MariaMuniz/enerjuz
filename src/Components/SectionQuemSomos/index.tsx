@@ -17,22 +17,21 @@ export const SectionQuemSomos: React.FC = () => {
     <TextoSomos>
     <TextTituloSectionSobre textoI='SOBRE' textoF='NÓS' traco='____'></TextTituloSectionSobre>
       
-      <Texto>A energia solar oferece diversas vantagens, tornando-a uma opção atraente para muitos consumidores e empresas. Algumas das principais vantagens da energia solar incluem:
-Sustentabilidade ambiental: A energia solar é uma fonte de energia renovável e limpa, que não emite poluentes atmosféricos ou gases de efeito estufa durante a geração de eletricidade.
- Isso ajuda a reduzir o impacto ambiental e combater as mudanças climáticas.
-Economia de energia: Ao instalar sistemas de energia solar, os proprietários podem reduzir significativamente
- suas contas de energia, uma vez que geram eletricidade gratuita a partir da luz do sol. Em muitos casos, é possível economizar uma quantia considerável a longo prazo.
-Redução das contas de eletricidade: A energia solar permite que os proprietários produzam sua própria eletricidade, reduzindo a dependência de fornecedores de eletricidade e protegendo contra aumentos nos preços da eletricidade.
+      <Texto>Desde 2021 a Enerjuz oferece soluções provenientes da energia solar fotovoltaica, 
+        transformando seus gastos em economia e promovendo sustentabilidade para o meio ambiente.
+         Com sede em Carmo do Cajuru, MG, temos uma equipe capacitada para dimensionar, projetar,
+          homologar, instalar e comissionar sua usina solar fotovoltaica.Os sistemas projetados
+           pela Enerjuz seguem os padrões exigidos pelas normas técnicas do setor, visando não só a economia do 
+        seu investimento, mas também sua segurança e durabilidade do empreendimento.
+
 </Texto>
-      <Texto>
-      Incentivos fiscais e financeiros: Muitos governos e agências oferecem incentivos financeiros, como créditos fiscais, subsídios e tarifas de alimentação, para estimular a instalação de sistemas de energia solar. 
-      Isso torna a energia solar mais acessível e atraente do ponto de vista financeiro.
-      </Texto>
+   
        </TextoSomos>
        </ColumTexto>
        
   <Imagem>
 <CardImgSomos imagem={equipeAzul}/>
+
 
 </Imagem>
 

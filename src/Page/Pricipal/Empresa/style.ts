@@ -79,7 +79,8 @@ width:90vw;
 
     @media (max-width: 768px) {
     flex-direction: column-reverse;
-    margin-top:0;
+    margin-top:2px;
+    height:38rem;
     }
   
 

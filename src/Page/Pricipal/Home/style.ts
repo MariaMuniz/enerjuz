@@ -16,15 +16,27 @@ export const Container = styled.div`
 
 
 export const Section = styled.section`
+position:relative;
     /// background-color:#000;
     max-width:1360px;
     height:600px;
-    @media (max-width: 768px) {
-        max-width:600px;
-  
- 
-  }
-`;
+    z-index:1;
+    @media  (min-width:768){ 
+        
+        display:none;
+      }
+       `;
+
+export const SectionMobile = styled.section`
+
+    /// background-color:#000;
+    max-width:600px;
+    margin-top:-460px;
+   z-index:0;
+    @media (min-width: 768px){ 
+        display:none;
+    }
+       `;
 
 export const SectionSolar = styled.section`
   
@@ -213,7 +225,23 @@ font-family: 'Poppins', sans-serif;
            display:flex;
           justify-content:center;
           align-items:center;
+          visibility:visible;
+          z-index:2;
           @media (max-width: 768px) {
-            display:nome;
+        
+            display:none;
           }
            `;
+
+export const MSlider = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+
+z-index:1;
+
+@media (max-width: 768px) {
+    
+ 
+}
+`;

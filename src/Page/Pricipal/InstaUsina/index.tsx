@@ -14,7 +14,7 @@ import { BoxTituloInterno } from "../../../Components/BoxTituloInterno";
 export const InstaUsina: React.FC = () => {
   return(
     <Container>
- <BoxTituloInterno titulo="Usina"/>
+ <BoxTituloInterno titulo="Usina de investimento"/>
       <BoxInstalacao texto="
 Uma usina fotovoltaica é um sistema que converte a luz solar em eletricidade usando células fotovoltaicas, geralmente feitas de materiais semicondutores, como o silício. Quando a luz solar atinge essas células, ela gera um fluxo de elétrons, criando uma corrente elétrica.
 

@@ -43,7 +43,7 @@ flex-direction:column;
     justify-content:center;
     align-items:center;
     margin-top:0.6rem;
-    color: #eab308;
+    color: #eafd36;
     font-size:18px;
     font-family: 'Poppins', sans-serif;
     font-weight:700;
@@ -57,6 +57,8 @@ flex-direction:row;
     justify-content:flex-start;
     align-items:center;
     gap:0.8rem;
+   
+
 
 `;
 

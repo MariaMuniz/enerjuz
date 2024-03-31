@@ -1,11 +1,15 @@
-import { BoxPageUsina } from "../../../Components/BoxPageUsina";
-import{BoxContainer, Container, ContainerPage,Texto, BoxTexto} from "./style";
-import usina1 from '../../../Components/Img/imgusina1.png';
 
-import { CardOrcamento } from "../../../Components/CardOrcamento";
+import{BoxContainer, Container, ContainerPage,Texto, BoxTexto,Box, SectionA, BoxAccordion,Titulo} from "./style";
+import cofre from '../../../Components/Img/iconCofre.png';
+import painel from '../../../Components/Img/iconPainel.png';
+
+import carteira from '../../../Components/Img/iconcarteira.png';
+import { CardOrcamentoUsina } from "../../../Components/CardOrcamentoUsina";
 
 import { BoxTitulo } from "../../../Components/BoxTitulo";
 import { Footer } from "../../../Components/Footer";
+import { CardUsina } from "../../../Components/CardUsina";
+import BasicExample from "../../../Components/Acordion";
 //import { Footer } from "../../../Components/Footer";
 
 
@@ -15,26 +19,34 @@ export const Usina: React.FC = () => {
   return(
   
       <Container>
-            <BoxTitulo titulo="COMO FUNCIONA O ALUGUEL DE USINA" traco="______________________________________"/>
+            <BoxTitulo titulo="ALUGUEL DE USINA" traco="______________"/>
 <BoxTexto>
        <Texto>
-       Uma usina solar fotovoltaica gera créditos de
-      energia que podem ser transferidos para outros locais.Você passa a receber esses créditos
-      de energia de acordo com o seu consumo
-       </Texto></BoxTexto>
+      Economize todo mês sem investir absolutamente NADA.
+      Alugue uma fração de uma usina solar fotovoltaica.
+       </Texto>
+       </BoxTexto>
         <BoxContainer>
       <ContainerPage>
-    <BoxPageUsina  imagem={usina1}
-    texto="Economize todo mês sem investir absolutamente NADA!
-    Alugue uma fração de uma usina solar fotovoltaica e tenha um desconto de 20% aproximadamente, na
-    sua fatura de energia elétrica na CEMIG"
-   
- 
-    />
+   <Box>
+<CardUsina imagem={cofre} descricao="Economia o ano todo"/>
+<CardUsina imagem={carteira} descricao="Redução na conta de energia"/>
+<CardUsina imagem={painel} descricao="Sem instalação sem manutenção"/>
+<CardUsina imagem={carteira} descricao="Sem investimento ou taxas"/>
+<CardUsina imagem={cofre} descricao="Economia o ano todo"/>
+<CardUsina imagem={painel} descricao="Energia sustentável"/>
+   </Box>
       </ContainerPage>
       
-    <CardOrcamento></CardOrcamento>
+    <CardOrcamentoUsina/>
    </BoxContainer>
+   <SectionA>
+    <Titulo>Dúvidas frequentes</Titulo>
+ <BoxAccordion>
+
+    <BasicExample></BasicExample>
+    </BoxAccordion>
+   </SectionA>
    <Footer></Footer>
    </Container>
     );

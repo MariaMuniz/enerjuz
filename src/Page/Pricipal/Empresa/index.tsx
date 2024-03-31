@@ -29,6 +29,7 @@ export const Empresa: React.FC = () => {
            <CardContato/>
 
     </CardContact>
+    
      <Paragrafo>Desde 2021 a Enerjuz oferece soluções provenientes da energia solar fotovoltaica,
 transformando seus gastos em economia e promovendo sustentabilidade para o meio ambiente.
 Com sede em Carmo do Cajuru, MG, temos uma equipe capacitada para dimensionar, projetar,
