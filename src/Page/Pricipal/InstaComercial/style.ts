@@ -11,4 +11,8 @@ export const Container = styled.div`
     justify-content:center;
     align-items:center;
     z-index:0;
+    
+    @media (max-width: 768px) {
+   margin-bottom:24rem;
+    }
 `;

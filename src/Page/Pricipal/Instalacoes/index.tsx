@@ -11,7 +11,7 @@ import imgAgro from '../../../Components/Img/imgAgro.png';
 import imgComercial from '../../../Components/Img/comercial1.png';
 import imgResidencial from '../../../Components/Img/residencial1.png';
 import usina1 from '../../../Components/Img/imgUsina1.jpg';
-import { GaleriaFotos} from '../../../Components/GaleriaFotos';
+
 
 
 
@@ -39,7 +39,7 @@ export const Instalacoes: React.FC = () => {
 
           
            
-        <GaleriaFotos/>
+    
          <Footer></Footer>
 
     </Container>

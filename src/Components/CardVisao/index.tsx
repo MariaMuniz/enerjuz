@@ -17,7 +17,7 @@ export const CardVisao: React.FC<Props> = (props) =>{
       <Card.Img style={{ width: '4rem',marginLeft:'6rem', marginTop:'1rem'}} variant="top" src={props.imagem} />
       <Card.Body>
         <Card.Title>{props.titulo}</Card.Title>
-        <Card.Text  style={{ minHeight: '20rem', textAlign: 'justify'}}> {props.descricao}</Card.Text>
+        <Card.Text  style={{ minHeight: '16rem', textAlign: 'justify'}}> {props.descricao}</Card.Text>
       </Card.Body>
     </Card>
   );

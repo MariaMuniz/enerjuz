@@ -1,13 +1,12 @@
-.container {
+.containerzap {
   position: fixed;
   bottom: 305px;
-  right: 20px;
+  right: 6.5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  min-height: 100px;
-
-  z-index: 15;
+  min-height: 90px;
+  z-index: 99;
 }
 .pulsar img {
   width: 30px;
@@ -57,5 +56,11 @@
   100% {
     transform: scale(1.2);
     opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  .containerzap {
+    bottom: 305px;
+    right: 3.5rem;
   }
 }

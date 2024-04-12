@@ -2,8 +2,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
- height:90vh;
-    width:50%;
+ height:70vh;
+    width:30%;
     display:flex;
     flex-direction:row;
     justify-content:start;
@@ -11,6 +11,7 @@ export const Container = styled.div`
     z-index:0;
     border-radius:0.5rem;
    // padding:1rem;
+
     @media (max-width: 768px) {
   width:100%;
   justify-content:center;

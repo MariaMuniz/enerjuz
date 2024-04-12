@@ -14,6 +14,7 @@ export const Container = styled.div`
 
 
 export const ContainerImg = styled.div`
+
     flex-direction:row;
     flex-wrap:wrap;
     display:flex;
@@ -24,6 +25,11 @@ export const ContainerImg = styled.div`
     a{
       text-decoration: none;
     }
+
+    @media (max-width: 768px) {
+      margin-bottom:20rem;
+ 
+          }
 `;
 
 export const ContainerFooter = styled.div`

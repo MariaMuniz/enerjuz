@@ -75,7 +75,7 @@ font-family: "Roboto", sans-serif;
   width: 90%;
   height: 1.6rem;
   border:0;
-  margin: 0 0px 0 0px;
+  margin-top:1rem;
   padding: 1rem;
   box-sizing: border-box;
   font-size: 12px;

@@ -94,14 +94,14 @@ const Header1 = () => {
     <header className={`header ${isSticky ? "sticky" : ""}`}>
       {/* Your header content */}
       <div className="links">
-        <div className="links-logo">
+        <div className="links_logo">
           <Logo imagem={logo} />
         </div>
-        <div className="links-wrapper">
+        <div className="links_wrapper">
           <Menu />
         </div>
       </div>
-      <div className="nav-menu">
+      <div className="nav_menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -116,8 +116,8 @@ const Header1 = () => {
           />
         )}
         {toggleMenu && (
-          <div className="nav-menu-wrapper">
-            <div className="nav-menu-wrapper-links">
+          <div className="nav_menu_wrapper">
+            <div className="nav_menu_wrapper_links">
               <Menu />
             </div>
           </div>

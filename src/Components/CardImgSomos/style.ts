@@ -14,6 +14,9 @@ export const Imagem = styled.img`
 margin-top:20px;
 width: 28rem;
 height: 18rem;
-
+@media (max-width: 768px) {
+ width:20rem;
+ height: 12rem;
+  }
 
 `;

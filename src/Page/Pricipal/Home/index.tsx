@@ -198,8 +198,6 @@ export const Home: React.FC = () => {
   </Box>
       </SectionSolarCinzaI>
       
-     
-
       <Footer></Footer>
       </Container>
     );

@@ -6,7 +6,7 @@ import zap from'../Img/zapmini.png';
 
 export const ButtonCustomer: React.FC = () => {
   return(
-    <div className="container">
+    <div className="containerzap">
         <a target="_blank" rel="noreferrer" href="https://wa.me/553199766499">
     <div className="pulsar">
    

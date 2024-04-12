@@ -11,30 +11,23 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 export const Footer: React.FC = () => {
   return (
     <Container>
-          <ContainerPage>
-<Column>
+     <ContainerPage>
+         <Column>
+       <LogoFooter imagem={logo}/>
+        <LinkFooter>
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/enerjuzsolar/"><InstagramIcon color="warning"/></a> 
+       </LinkFooter>
+          </Column>
+       <Column>
+         INSTITUCIONAL
 
-<LogoFooter imagem={logo}/>
+         <LinkFooter>
+           <a href="/">Home</a>
+         </LinkFooter>
 
-
-<LinkFooter>
-<a target="_blank" rel="noreferrer" href="https://www.instagram.com/enerjuzsolar/"><InstagramIcon color="warning"/></a> 
-</LinkFooter>
-
-
-</Column>
-
-
-<Column>
-INSTITUCIONAL
-
-<LinkFooter>
-<a href="/">Home</a>
-</LinkFooter>
-
-<LinkFooter>
-  <a href="/empresa">Sobre</a>
-</LinkFooter>
+      <LinkFooter>
+       <a href="/empresa">Sobre</a>
+      </LinkFooter>
 
 
 <LinkFooter>
@@ -45,15 +38,12 @@ INSTITUCIONAL
 <a href="/contato">Contato</a>
 </LinkFooter>
 </Column>
+
 <Column>
 SERVIÇOS
-
-
-
 <LinkFooter>
 <a href="/Comercial">Comercial</a>
 </LinkFooter>
-
 
 <LinkFooter>
 <a href="/agro">Agro</a>

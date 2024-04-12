@@ -35,6 +35,7 @@ export const Agro: React.FC = () => {
  
     </ContainerPage>
     
+    
   <CardOrcamento/>
  </BoxContainer>
  <Footer></Footer>

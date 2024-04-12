@@ -7,9 +7,10 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
+background:#172554;
 
 @media (max-width: 768px) {
-  width:100%;
+  width:94%;
 //height:100%;
   
   }
@@ -31,8 +32,10 @@ width:96vw;
 background:#172554;///#001f5f;
 flex-direction:row;
 z-index:0;
+background:#172554;
 @media (max-width: 768px) {
     flex-direction: column;
+    width:100vw;
   }
 `;
 
@@ -48,7 +51,9 @@ flex-direction:column;
     font-family: 'Poppins', sans-serif;
     font-weight:700;
 background:#172554;///#001f5f;
-
+@media (max-width: 550px) {
+  width:100vw;
+}
 `;
 export const Box = styled.div`
 width:12rem;
@@ -57,7 +62,7 @@ flex-direction:row;
     justify-content:flex-start;
     align-items:center;
     gap:0.8rem;
-   
+    background:#172554;
 
 
 `;
@@ -92,6 +97,7 @@ display:flex;
 justify-content:center;
  align-items:center;
 flex-direction:column;
+background:#172554;
 
 `;
 

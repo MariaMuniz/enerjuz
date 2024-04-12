@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  text-align: justify;
 }
 .title {
   margin-bottom: 0.8rem;
@@ -94,10 +95,19 @@
 }
 @media (max-width: 768px) {
   .containerDiv {
-    width: 26rem;
+    width: 22srem;
     padding: 1rem;
+    height: 400px;
+    margin-bottom: 18rem;
+  }
+  .form {
+    max-width: 19rem;
+    width: 90%;
   }
   .texto {
-    width: 26rem;
+    width: 20rem;
+  }
+  .card {
+    display: none;
   }
 }

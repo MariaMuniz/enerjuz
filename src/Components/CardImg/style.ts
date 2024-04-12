@@ -29,7 +29,7 @@ export const Titulo = styled.h1`
 `;
 
 export const Imagem = styled.img`
-margin-top:10px;
+margin-top:1rem;
 width: 24rem;
 height: 18rem;
  border-radius:0.5rem;
@@ -41,4 +41,10 @@ height: 18rem;
 		-webkit-transform: scale(0.4);
     transform: scale(1.1);
 		}
+    @media (max-width: 768px) {
+      margin-top:0.2rem;
+      width: 18rem;
+      height: 12rem;
+      
+          }
 `;

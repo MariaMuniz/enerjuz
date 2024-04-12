@@ -1,4 +1,4 @@
-import { Container,Titulo, TituloContainer, Formulario, Label, Button, Input, ContainerBtn, Menssage} from "./style";
+import { Container,Titulo, TituloContainer, Formulario, Button, Input, ContainerBtn, Menssage} from "./style";
 
 
 
@@ -13,21 +13,21 @@ export const CardOrcamento: React.FC = () => {
       <Formulario>
        
       
-              <Label>Nome</Label>
+      
               <Input placeholder="Nome" />
            
-              <Label>Email</Label>
+             
               <Input placeholder="Email"/>
           
-            <Label>Telefone</Label>
+      
               <Input placeholder="Telefone"/>
          
-              <Label>Mensagem</Label>
+    
               <Menssage  placeholder="Descreva sua necessidade" />
      
           
 
-              <Label>reCaptcha</Label>
+             
 
           <ContainerBtn>
 

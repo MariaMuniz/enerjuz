@@ -21,6 +21,10 @@ export const BoxContainer = styled.div`
     align-items:center;
     z-index:0;
 flex-wrap:wrap;
+@media (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom:20rem;
+    }
 `;
 
 export const ContainerPage = styled.div`

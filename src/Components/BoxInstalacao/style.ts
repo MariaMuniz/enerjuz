@@ -9,9 +9,10 @@ export const Container = styled.div`
     align-items:center;
     flex-direction:column;
     margin: 0;
+
     @media (max-width: 768px) {
-       
-      height:100%;
+  
+   margin-bottom:20rem;
    }
     `;
 
@@ -22,6 +23,7 @@ export const Texto = styled.div`
     justify-content:center;
     align-items:center;
     margin: 1rem;
+    text-align: justify;
 
     `;
 export const TextoP = styled.p`

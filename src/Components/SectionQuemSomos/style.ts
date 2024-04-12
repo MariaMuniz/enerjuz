@@ -14,7 +14,7 @@ background-image:url("fundo3.png");
    @media (max-width: 768px) {
     flex-direction: column;
     background-image:none;
-    margin-bottom:1rem;
+    margin-bottom:0.2rem;
   }
 `;
 export const ColumTexto= styled.div`
@@ -38,7 +38,7 @@ margin-bottom:4rem;
 `;
 
 export const TextoSomos= styled.div`
- width:700px;
+ width:500px;
  margin-top:6rem;
     flex-direction:column;
     display:flex;
@@ -47,13 +47,18 @@ export const TextoSomos= styled.div`
     flex-wrap:wrap;
     @media (max-width: 768px) {
  max-width:70%;
+ margin-top:1rem;
   }
 `;
 
 export const Imagem= styled.div`
 margin-top:2rem;
- width:99%;
-
+ width:90%;
+ @media (max-width: 768px) {
+width:20%;
+ margin-left:-22rem;
+ margin-right:1rem;
+  }
 `;
 
 
@@ -66,6 +71,7 @@ margin-top:1rem;
 margin-bottom:1rem;
 margin-left:4rem;
 @media (max-width: 768px) {
- max-width:80%;
+ max-width:60%;
+ margin-left:1rem;
   }
 `;

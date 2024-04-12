@@ -8,7 +8,7 @@ import {Container} from "./style";
 function CardContato() {
   return (
     <Container>
-    <Card style={{ width: '20rem', height:'26rem',marginRight:'4rem'}}>
+    <Card style={{ width: '18rem', height:'26rem',marginRight:'4rem',marginLeft:'2rem'}}>
       <Card.Img variant="top" />
       <Card.Body>
       <Card.Title style={{marginBottom: '2rem', marginTop:'2rem'}}>Entre em contato </Card.Title>

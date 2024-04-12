@@ -66,6 +66,7 @@ export const Card= styled.div`
 
     @media (max-width: 768px) {
     flex-direction: column;
+    margin-bottom:20rem;
   }
 `;
 
@@ -76,7 +77,7 @@ width:90vw;
     justify-content:center;
     align-items:center;
     flex-direction:row;
-
+    
     @media (max-width: 768px) {
     flex-direction: column-reverse;
     margin-top:2px;

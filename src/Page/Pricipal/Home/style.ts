@@ -80,6 +80,8 @@ export const SectionSolarFuncionamento2 = styled.section`
     background-color:white;
     @media (max-width: 768px) {
         background-image:none;
+        height:320px;
+
     }
 
 `;
@@ -110,7 +112,7 @@ export const SectionSolarCinzaI = styled.section`
     margin-top:100px;
     background-color:transparent;
     @media (max-width: 768px) {
-        height:1100px;
+        height:900px;
     }
 `;
 
@@ -174,8 +176,9 @@ export const BoxImage = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    @media (max-width: 768px) {
 
-
+    }
     `;
        
         export const TituloSection = styled.h3`
@@ -185,6 +188,11 @@ export const BoxImage = styled.div`
        color: #002060;
        margin-top:8rem;
        font-family: 'Poppins', sans-serif;
+       @media (max-width: 768px) {
+        margin-top:0.2rem;
+    
+      }
+       
         `;
          export const TituloSectionF = styled.h4`
          display:flex;
@@ -202,15 +210,28 @@ align-items:center;
 color: #002060;
 margin-top:6rem;
 font-family: 'Poppins', sans-serif;
+@media (max-width: 768px) {
+      
+     margin-left:4rem;
+        }
+         
 `;
          export const SubTitulo = styled.h5`
+         width:80%;
          display:flex;
         justify-content:center;
         align-items:center;
+
         margin-top:1rem;
         color: #002060;
         font-family: 'Poppins', sans-serif;
-         `;
+
+        @media (max-width: 768px) {
+        
+       margin-left:3rem;
+      }
+       `;
+        
            export const Traco = styled.h1`
            font-weight:700;
            margin-top:-40px;
@@ -218,7 +239,12 @@ font-family: 'Poppins', sans-serif;
           justify-content:center;
           align-items:center;
           color: #002060;
-           `;
+          @media (max-width: 768px) {
+        
+       display:none;
+       }
+        `;
+           
 
 
     export const Mobile = styled.div`

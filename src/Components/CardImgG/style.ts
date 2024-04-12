@@ -17,9 +17,11 @@ margin-top:10px;
 width: 60vw;
 height: 70vh;
  border-radius:0.5rem;
-
+margin-left:1rem;
  @media (max-width: 768px) {
 
   margin-top:0;
+  width: 60vw;
+height: 30vh;
  }
 `;
